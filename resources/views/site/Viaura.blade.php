@@ -7,7 +7,7 @@
   <title>VIAURA</title>
   <link rel="stylesheet" href="{{ asset('front/CSS/all.min.css') }}">
   <link rel="stylesheet" href="{{ asset('front/CSS/bootstrap.min.css') }}">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="{{ asset ( 'front/CSS/aos.css')}}">
   <link rel="website icon" href="{{ asset('front/images/LOGO.svg') }}">
   <link rel="stylesheet" href="{{ asset('front/CSS/Viaura.css') }}">
 
@@ -121,7 +121,7 @@
                   class="fa-solid fa-angle-right "></i> </a>
             </div>
             <div class="col-lg-6 image mt-3 " data-aos="fade-left" data-aos-delay="400" data-aos-duration="500">
-              <img class="mx-sm-auto ms-lg-5" src="images/Education.svg" alt="education">
+              <img class="mx-sm-auto ms-lg-5" src="{{asset('front/images/Education.svg') }}" alt="education">
             </div>
           </div>
           <div class="row align-items-center mt-lg-5">
